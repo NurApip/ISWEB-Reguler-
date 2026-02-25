@@ -4,7 +4,7 @@ Repository ini berisi kumpulan tugas mata kuliah Internet & Web Programming.
 
 ---
 
-## 👤 Identitas Mahasiswa
+## 👤 Identitas Diri
 
 - Nama  : Nur Avip
 - NRP   : (162023032)
@@ -14,6 +14,6 @@ Repository ini berisi kumpulan tugas mata kuliah Internet & Web Programming.
 ## 📚 Daftar Tugas
 
 ### 🔹 Week 1  – 
-Link:
+Link: tugas2_162023032
 
 
