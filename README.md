@@ -1,3 +1,19 @@
-# ISWEB-Reguler-
+ISB-310 SISTEM INFORMASI BERBASIS WEB AA 2025/2026 Genap
 
-"saya mengerjakan tugas ini sendiri tanpa melakukan kecurangan seperti menggunakan, mendupliaksi kode perogram kode program yang ada. jia saya melakukan kecurangan dalam perngerjaan tugas ini maka saya siap menerima sanksi atau hukuman dari dari dosen mata kuliah dan tuhan / allah  swt"
+Repository ini berisi kumpulan tugas mata kuliah Internet & Web Programming.
+
+---
+
+## 👤 Identitas Mahasiswa
+
+- Nama  : Nur Avip
+- NRP   : (162023032)
+- Kelas : ISB-310 SISTEM INFORMASI BERBASIS WEB 
+
+
+## 📚 Daftar Tugas
+
+### 🔹 Week 1  – 
+Link:
+
+
