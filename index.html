@@ -1,29 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Quiz Click Counter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferensi Warna</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="appBody">
 
-    <button onclick="clickCounter()">Click me!</button>
+    <h1 class="main-title">Preferensi Warna</h1>
 
-    <p id="result"></p>
+    <fieldset class="color-container">
+        <legend>Warna</legend>
+        
+        <div class="input-row">
+            <span class="label-text">1. Warna latarbelakang</span>
+            <input type="color" id="bgColorPicker" value="#3b6da4">
+        </div>
 
-    <p>Click the button to see the counter increase.</p>
-    <p>Close the browser tab (or window), and try again, and the counter is reset.</p>
+        <div class="input-row">
+            <span class="label-text">2. Warna teks</span>
+            <input type="color" id="textColorPicker" value="#d11d1d">
+        </div>
+    </fieldset>
+
+    <button class="btn-simpan" onclick="applyPreferences()">Simpan</button>
 
     <script>
-        function clickCounter() {
-            if (sessionStorage.clickCount) {
-                sessionStorage.clickCount = Number(sessionStorage.clickCount) + 1;
-            } else {
-                sessionStorage.clickCount = 1;
-            }
+        function applyPreferences() {
+            const bgColor = document.getElementById('bgColorPicker').value;
+            const textColor = document.getElementById('textColorPicker').value;
 
-            document.getElementById("result").innerHTML =
-                "You have clicked the button " + sessionStorage.clickCount + " time(s) in this session.";
+            document.body.style.backgroundColor = bgColor;
+            document.body.style.color = textColor;
+
+            // Simpan ke localStorage agar awet saat refresh
+            localStorage.setItem('userBg', bgColor);
+            localStorage.setItem('userText', textColor);
         }
-    </script>
 
+        // Load data saat halaman dibuka
+        window.onload = () => {
+            const savedBg = localStorage.getItem('userBg');
+            const savedText = localStorage.getItem('userText');
+
+            if (savedBg) {
+                document.body.style.backgroundColor = savedBg;
+                document.getElementById('bgColorPicker').value = savedBg;
+            }
+            if (savedText) {
+                document.body.style.color = savedText;
+                document.getElementById('textColorPicker').value = savedText;
+            }
+        };
+    </script>
 </body>
 </html>
