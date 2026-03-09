@@ -20,5 +20,5 @@ Daftar Tugas
 - (Akan terus diperbarui setiap minggu)
 Dibuat untuk memenuhi tugas mata kuliah semester 6.
 
-===========================================================
+--------------------------------------------------------
 Dibuat untuk memenuhi tugas mata kuliah semester 6.
