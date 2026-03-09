@@ -4,10 +4,11 @@ Repository ini berisi kumpulan tugas untuk mata kuliah ISB-310 Sistem Informasi 
 
 Identitas Mahasiswa
 ----------------------------------------------------------
-Nama: Nur Avip
-NRP: 16-2023-003
-Program Studi: Sistem Informasi
-Institusi: Institut Teknologi Nasional (Itenas) Bandung
+- Nama: Nur Avip
+- NRP: 16-2023-003
+- Program Studi: Sistem Informasi
+- Institusi: Institut Teknologi Nasional (Itenas) Bandung
+
 
 Daftar Tugas
 ----------------------------------------------------------
