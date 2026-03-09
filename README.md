@@ -15,8 +15,8 @@ Daftar Tugas
 
 - [Week 1: Pengumpulan Tugas Week 1](../../tree/Week-1)
 - [Week 2: Pengumpulan Tugas Week 2](../../tree/Week-2)
--
--
+- [Week 3: Pengumpulan Tugas Week 3](../../tree/Week-3)
+- [Week 4: Pengumpulan Tugas Week 4](../../tree/Week-4)
 - (Akan terus diperbarui setiap minggu)
 Dibuat untuk memenuhi tugas mata kuliah semester 6.
 
